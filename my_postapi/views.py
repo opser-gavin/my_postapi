@@ -12,8 +12,8 @@ def sendEmail(request):
         tomail = recv_data['data'][2]['tomail']
 
         mail_host = 'smtp.139.com'
-        mail_user = 'gavin.xinali'
-        mail_pass = 'haohaizi@qusiba^'
+        mail_user = 'user' #爱特符号前的
+        mail_pass = 'xxxx'
         mail_postfix = '139.com'
 
         me = mail_user + "<" + mail_user + "@" + mail_postfix + ">"
